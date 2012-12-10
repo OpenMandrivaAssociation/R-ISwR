@@ -12,8 +12,11 @@ Source0:          http://cran.r-project.org/src/contrib/%{packname}_2.0-5.tar.gz
 BuildArch:        noarch
 Requires:         R-core
 Requires:         R-survival 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
+BuildRequires:    R-devel
+BuildRequires:    Rmath-devel
+BuildRequires:    texlive-collection-latex 
 BuildRequires:    R-survival 
+BuildRequires:    pkgconfig(lapack)
 
 %description
 Data sets and scripts for text examples and exercises in P. Dalgaard
@@ -45,3 +48,11 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/rawdata
 %{rlibdir}/%{packname}/scripts
+
+
+%changelog
+* Fri Feb 17 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.0_5-1
++ Revision: 776269
+- Import R-ISwR
+- Import R-ISwR
+
