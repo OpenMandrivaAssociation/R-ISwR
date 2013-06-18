@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          2.0_5
-Release:          1
+Release:          2
 Summary:          Introductory Statistics with R
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
