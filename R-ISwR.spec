@@ -2,13 +2,13 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
-Version:          2.0_5
+Version:          2.0_6
 Release:          2
 Summary:          Introductory Statistics with R
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_2.0-5.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/%{packname}_2.0-6.tar.gz
 BuildArch:        noarch
 Requires:         R-core
 Requires:         R-survival 
